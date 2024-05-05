@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/tomate-icon.png">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Relógio Pomodoro</title>
+</head>
+<body>
+    <main>
+        <div class="timer-container">
+            <div class="timer">
+            </div>
+        </div>
+        <div class="intervalo-container">
+            <div class="intervalo">
+            </div>
+        </div>
+        <div class="controle-timer">
+            <button class="play-pause-timer hover-scale" onclick="iniciarContagem()">Iniciar</button>
+            <button class="play-pause-timer hover-scale" onclick="pausarTimer()">Pausar</button>
+        </div>
+        <div class="controle-intervalo">
+            <button class="play-pause-intervalo hover-scale" onclick="iniciarContagemIntervalo()">Iniciar</button>
+            <button class="play-pause-intervalo hover-scale" onclick="pausarTimer()">Pausar</button>
+        </div>
+        <div class="iniciar-intervalo-container">
+            <button class="iniciar-intervalo" onclick="iniciarIntervalo()">Iniciar intervalo</button>
+        </div>
+        <div class="reiniciar-timer-container">
+            <button class="reiniciar-timer" onclick="finalizarIntervalo()">Finalizar intervalo</button>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

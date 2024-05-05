@@ -1,0 +1,131 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(#FD5D5B 0deg, transparent 0deg);
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    background-color: #FD5D5B;
+    color: #F2F2F2;
+    border: 10px solid #f2f2f2;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    gap: 30px;
+}
+
+.intervalo-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(#72A2EB 0deg, transparent 0deg);
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+
+.intervalo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    background-color: #72A2EB;
+    color: #F2F2F2;
+    border: 10px solid #F2F2F2;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    gap: 30px;
+}
+
+.estado-sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.controle-timer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.play-pause-timer {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: #FD5D5B;
+    cursor: pointer;
+}
+
+.hover-scale:hover {
+    width: 160px;
+    height: 60px;
+}
+
+.controle-intervalo {
+    display: none;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+}
+
+.play-pause-intervalo {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: #72A2EB;
+    cursor: pointer;
+}
+
+.iniciar-intervalo{
+    width: 250px;
+    height: 60px;
+    max-width: 255px;
+    max-height: 65px;
+    border-radius: 30px;
+    border-color: #72A2EB;
+    cursor: pointer;
+}
+
+.iniciar-intervalo:hover {
+    width: 255px;
+    height: 65px;
+}
+
+.reiniciar-timer-container {
+    display: none;
+}
+
+.reiniciar-timer {
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: #FD5D5B;
+    cursor: pointer;
+}
